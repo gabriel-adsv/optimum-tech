@@ -1,0 +1,181 @@
+#products {
+  padding: 9.6rem 11.2rem;
+
+  background-color: var(--background-color);
+}
+
+.products-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-subtitle {
+  width: fit-content;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+  
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 1.6rem;
+  border-radius: 1.6rem;
+  
+  color: var(--red-dark);
+  background-color: var(--color-transparent);
+}
+
+.products-content h2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: -0.72px;
+
+  margin-bottom: 2rem;
+
+  color: var(--gray-900);
+}
+
+.products-text {
+  font-size: 2rem;
+
+  color: var(--text-color-content);
+}
+
+.products-image {
+  margin: 6.4rem 0;
+}
+
+.product-vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin: 6.4rem 8rem 9.6rem;
+}
+
+.vagas {
+  margin: 0 25.6rem 6.4rem;
+}
+
+.vagas h2 {
+  font-size: 2rem;
+  font-weight: 500;
+
+  margin: 0 0 3.2rem;
+
+  color: var(--gray-900);
+}
+
+.elemento-vaga {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.vaga-descricao {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  padding: 2.4rem;
+  
+  border-radius: 1.6rem;
+  border: 1px solid var(--text-color-content);
+}
+
+.vaga-descricao span {
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  color: var(--gray-900);
+}
+
+.vaga-salario {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.vaga-salario p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  
+  color: var(--text-color-content);
+}
+
+@media screen and (max-width: 768px) {
+  #products {
+    padding: 12rem 8.2rem 9rem;
+  }
+
+  .products-content {
+    text-align: center;
+  }
+
+  .products-content h2 {
+    width: 58rem;
+  }
+
+  .products-text {
+    width: 60rem;
+  }
+
+  .products-image {
+    width: 100%;
+  }
+
+  .vagas {
+    margin: 0 3rem;
+  }
+
+  .vagas h2 {
+    padding-top: 3.2rem;
+  }
+
+  .vaga-descricao {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  #products {
+    padding: 13rem 6rem;
+  }
+
+  .products-content h2 {
+    width: 36rem;
+
+    font-size: 2.5rem;
+  }
+
+  .products-text {
+    width: 100%;
+  }
+
+  .products-image {
+    width: 30rem;
+
+    margin: 3.4rem 0 1.4rem;
+  }
+
+  .vagas h2 {
+    margin: 3.2rem 0 2rem;
+  }
+
+  .vaga-descricao {
+    width: 86%;
+
+    gap: 1.5rem;
+
+    padding: 2rem;
+  }
+
+  .vaga-descricao span {
+    font-size: 1.6rem;
+  }
+
+  .vaga-salario p {
+    font-size: 1.2rem;
+  }
+}

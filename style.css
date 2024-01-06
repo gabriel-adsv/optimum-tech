@@ -1,0 +1,38 @@
+@import url("styles/nav.css");
+@import url("styles/home.css");
+@import url("styles/products.css");
+@import url("styles/testimony.css");
+@import url("styles/footer.css");
+
+:root {
+  --red-dark: #8E2424;
+  --gray-900: #101828;
+  --color-text-button: #FFFFFF;
+
+  /* cores que serão alteradas no light mode */
+  --background-color: #595A5C;
+  --text-color-content: #EAECF0;
+  --color-transparent: rgba(255, 255, 255, 0.171);
+  --footer-color: #929294;
+  --footer-copyright: #DDE4F1;
+  
+  --font-main: 'Inter', sans-serif;
+  
+  font-size: 62.5%;
+}
+
+.light {
+  --background-color: #FFFFFF;
+  --text-color-content: #667085;
+  --color-transparent: rgba(142, 36, 36, 0.219); 
+  --footer-color: #EAECF0;
+  --footer-copyright: #98A2B3;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-main);
+
+  width: 100%;
+  height: 100vh;
+}
